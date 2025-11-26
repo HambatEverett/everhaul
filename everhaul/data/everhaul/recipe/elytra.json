@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["rer", "p p", "p p"],
+  "key": {
+    "e": "minecraft:ender_eye",
+    "p": "minecraft:phantom_membrane",
+    "r": "minecraft:end_rod"
+  },
+  "result": {
+    "id": "minecraft:elytra"
+  }
+}

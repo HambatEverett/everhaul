@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:paper",
+      "components": {
+        "minecraft:item_model": "everhaul:blunt"
+      }
+    },
+    "title": "Stimulated.. Too much",
+    "description": "Do drugs. (Dont do drugs irl)",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "everhaul:drink",
+  "criteria": {
+    "drugs": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "drugs": 1
+            }
+          }
+        }
+      }
+    },
+    "drugs2": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "minecraft:custom_data": {
+              "drugs": 1,
+              "overdose": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["drugs", "drugs2"]]
+}

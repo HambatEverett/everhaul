@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["wheat", "minecraft:glass_bottle", "minecraft:wheat"],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 16754447,
+        "custom_effects": [
+          {
+            "id": "minecraft:strength",
+            "amplifier": 0,
+            "duration": 600
+          },
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 1,
+            "duration": 1000
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Wheat Beer",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Strong, grainy Wheat Beer. Made from fresh wheat.",
+          "color": "#FFA70F",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1,
+        "alcohol": 1
+      }
+    },
+    "count": 1
+  }
+}

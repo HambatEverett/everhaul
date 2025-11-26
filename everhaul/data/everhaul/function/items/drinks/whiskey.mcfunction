@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:thick",custom_color:11091975,custom_effects:[{id:"minecraft:strength",amplifier:1,duration:1800},{id:"minecraft:slowness",amplifier:0,duration:1200}]},custom_name={"italic":false,"text":"Whiskey"},lore=[{"color":"#A94007","italic":false,"text":"A bold bottle of Whiskey."}],custom_data={custdrink:1b,alcohol:1b}] 1

@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glowstone_dust",
+    "minecraft:glass_bottle",
+    "minecraft:sugar",
+    "#minecraft:leaves"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 16760576,
+        "custom_effects": [
+          {
+            "id": "minecraft:strength",
+            "amplifier": 2,
+            "duration": 900
+          },
+          {
+            "id": "minecraft:haste",
+            "amplifier": 1,
+            "duration": 600
+          },
+          {
+            "id": "minecraft:nausea",
+            "amplifier": 3,
+            "duration": 1200
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Kombucha",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "A smooth, soda-like glass of Kombucha.",
+          "color": "#FFBF00",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1
+      }
+    },
+    "count": 1
+  }
+}

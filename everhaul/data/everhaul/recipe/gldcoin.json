@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:gold_nugget",
+  "result": {
+    "id": "minecraft:echo_shard",
+    "components": {
+      "minecraft:item_model": "everhaul:gldcoin",
+      "minecraft:item_name": "Gold Coin",
+      "minecraft:rarity": "common"
+    }
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [" a ", "aba", " a "],
+  "key": {
+    "a": ["minecraft:paper"],
+    "b": "#minecraft:leaves"
+  },
+  "result": {
+    "id": "minecraft:paper",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 3,
+        "animation": "toot_horn",
+        "sound": "minecraft:entity.player.breath",
+        "has_consume_particles": false,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:slowness",
+                "amplifier": 0,
+                "duration": 1200
+              },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 2,
+                "duration": 1200
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:item_model": "everhaul:blunt",
+      "minecraft:item_name": "Blunt",
+      "minecraft:custom_data": {
+        "drugs": 1
+      },
+      "minecraft:lore": [
+        {
+          "text": "Marijuana Wrapped in Paper, Smokable",
+          "color": "#29C22E",
+          "italic": false
+        }
+      ]
+    },
+    "count": 1
+  }
+}

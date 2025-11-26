@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:iron_nugget",
+  "result": {
+    "id": "minecraft:echo_shard",
+    "components": {
+      "minecraft:item_model": "everhaul:irncoin",
+      "minecraft:item_name": "Iron Coin",
+      "minecraft:rarity": "common"
+    }
+  }
+}

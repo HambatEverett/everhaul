@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_bed"
+    },
+    "title": "Where am I",
+    "description": "Get too drunk and blackout.",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "everhaul:drink",
+  "criteria": {
+    "blckout": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [["blckout"]]
+}

@@ -1,0 +1,45 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    ["minecraft:sweet_berries"],
+    ["minecraft:sweet_berries"],
+    ["minecraft:glass_bottle"]
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 10682368,
+        "custom_effects": [
+          {
+            "id": "minecraft:luck",
+            "amplifier": 2,
+            "duration": 1800
+          },
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 1200
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Red Wine",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Red Wine brewed from sweet berries.",
+          "color": "#A30000",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1,
+        "alcohol": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:cactus",
+    "minecraft:glowstone_dust",
+    "minecraft:blue_dye",
+    "minecraft:melon_slice"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 4357119,
+        "custom_effects": [
+          {
+            "id": "minecraft:nausea",
+            "amplifier": 5,
+            "duration": 2400
+          },
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 2,
+            "duration": 2400
+          },
+          {
+            "id": "minecraft:blindness",
+            "amplifier": 0,
+            "duration": 800
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Buzzball",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "BUZZBALL BUZZBALL BUZZBALL BUZZBALL BUZZBALL BUZZBALL!!!",
+          "color": "#427BFF",
+          "italic": false
+        },
+        {
+          "text": "This Buzzball will get you more buzzed than a bee.",
+          "color": "#427BFF",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1,
+        "superalc": 1
+      }
+    },
+    "count": 1
+  }
+}

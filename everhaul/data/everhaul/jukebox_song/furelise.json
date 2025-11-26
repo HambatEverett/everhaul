@@ -1,0 +1,10 @@
+{
+  "comparator_output": 14,
+  "description": {
+    "text": "Beethoven - Fur Elise"
+  },
+  "length_in_seconds": 175.0,
+  "sound_event": {
+    "sound_id": "everhaul:records.furelise"
+  }
+}

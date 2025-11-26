@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["ggg", "gbg", "ggg"],
+  "key": {
+    "g": "minecraft:gold_nugget",
+    "b": "minecraft:book"
+  },
+  "result": {
+    "id": "minecraft:knowledge_book",
+    "components": {
+      "minecraft:custom_data": {
+        "recipebook": 1
+      }
+    }
+  }
+}

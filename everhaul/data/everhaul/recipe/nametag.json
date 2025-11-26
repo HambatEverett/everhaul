@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": ["pis"],
+  "key": {
+    "p": "minecraft:paper",
+    "i": "minecraft:iron_nugget",
+    "s": "minecraft:string"
+  },
+  "result": {
+    "id": "minecraft:name_tag"
+  }
+}

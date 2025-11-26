@@ -1,0 +1,10 @@
+{
+  "comparator_output": 13,
+  "description": {
+    "text": "Minecraft Story Mode OST - Wither Storm Theme"
+  },
+  "length_in_seconds": 180.0,
+  "sound_event": {
+    "sound_id": "everhaul:records.witherstorm"
+  }
+}

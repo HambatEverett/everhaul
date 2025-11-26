@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:red_dye",
+    "minecraft:sweet_berries",
+    "minecraft:sugar",
+    "minecraft:sugar",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 15747144,
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 1,
+            "duration": 600
+          },
+          {
+            "id": "minecraft:weakness",
+            "amplifier": 1,
+            "duration": 800
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Shirley Temple",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Crisp, sweet, and sparkling Shirley Temple.",
+          "color": "#F04848",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1
+      }
+    }
+  }
+}

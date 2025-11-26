@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:thick",custom_color:15747144,custom_effects:[{id:"minecraft:speed",amplifier:1,duration:600},{id:"minecraft:weakness",amplifier:1,duration:800}]},custom_name={"italic":false,"text":"Shirley Temple"},lore=[{"color":"#F04848","italic":false,"text":"Crisp, sweet, and sparkling Shirley Temple."}],custom_data={custdrink:1b}] 1

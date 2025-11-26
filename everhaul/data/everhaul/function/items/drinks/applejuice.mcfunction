@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:thick",custom_color:16692480,custom_effects:[{id:"minecraft:regeneration",amplifier:0,duration:600}]},custom_name={"italic":false,"text":"Apple Juice"},lore=[{"color":"#FEB500","italic":false,"text":"Fresh, Crisp Apple Juice"}],custom_data={custdrink:1b}] 1

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [["minecraft:apple"], ["sugar"], ["minecraft:glass_bottle"]],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 16692480,
+        "custom_effects": [
+          {
+            "id": "minecraft:regeneration",
+            "amplifier": 0,
+            "duration": 600
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Apple Juice",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Fresh, Crisp Apple Juice",
+          "color": "#feb500",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": "1"
+      }
+    },
+    "count": 1
+  }
+}

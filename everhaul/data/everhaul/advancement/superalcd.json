@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:allium"
+    },
+    "title": "superalcd",
+    "description": "superalcd",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "everhaul:alcd",
+  "criteria": {
+    "superalcd": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": "minecraft:potion",
+          "components": {
+            "minecraft:custom_data": {
+              "custdrink": 1,
+              "superalc": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["superalcd"]],
+  "rewards": {
+    "function": "everhaul:detections/superdrink"
+  }
+}

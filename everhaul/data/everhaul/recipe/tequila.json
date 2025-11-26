@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:glass_bottle",
+    "minecraft:cactus",
+    "minecraft:glowstone_dust"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 14587434,
+        "custom_effects": [
+          {
+            "id": "minecraft:fire_resistance",
+            "amplifier": 0,
+            "duration": 800
+          },
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 0,
+            "duration": 1100
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Tequila",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Sharp and sweet Tequila, made from fresh succulents.",
+          "color": "#DE962A",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1,
+        "alcohol": 1
+      }
+    },
+    "count": 1
+  }
+}

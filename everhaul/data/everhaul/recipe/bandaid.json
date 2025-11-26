@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [["minecraft:paper"], "#minecraft:bee_food"],
+  "result": {
+    "id": "rabbit_foot",
+    "components": {
+      "minecraft:consumable": {
+        "consume_seconds": 1,
+        "animation": "brush",
+        "sound": "minecraft:block.slime_block.step",
+        "has_consume_particles": false,
+        "on_consume_effects": [
+          {
+            "type": "minecraft:clear_all_effects"
+          },
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:instant_health",
+                "amplifier": 0,
+                "duration": 2,
+                "ambient": true,
+                "show_particles": false,
+                "show_icon": true
+              }
+            ],
+            "probability": 1
+          }
+        ]
+      },
+      "minecraft:item_name": "Band-Aid",
+      "minecraft:use_cooldown": {
+        "seconds": 3
+      },
+      "minecraft:item_model": "everhaul:bandaid"
+    },
+    "count": 3
+  }
+}

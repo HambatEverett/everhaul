@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:potion",
+      "components": {
+        "minecraft:potion_contents": {
+          "potion": "minecraft:thick",
+          "custom_color": 10682368,
+          "custom_name": "Red Wine"
+        }
+      }
+    },
+    "title": "Bottoms Up",
+    "description": "Make your first drink.",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "everhaul:root",
+  "criteria": {
+    "drink_drink": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:potion"],
+          "components": {
+            "minecraft:custom_data": {
+              "custdrink": 1
+            }
+          }
+        }
+      }
+    },
+    "drink_alc": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "item": {
+          "items": ["minecraft:potion"],
+          "components": {
+            "minecraft:custom_data": {
+              "custdrink": 1,
+              "alcohol": 1
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["drink_drink", "drink_alc"]]
+}

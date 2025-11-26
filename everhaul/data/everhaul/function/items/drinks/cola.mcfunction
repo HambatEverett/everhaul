@@ -1,0 +1,1 @@
+give @s potion[potion_contents={potion:"minecraft:water",custom_color:6036498,custom_effects:[{id:"minecraft:speed",amplifier:0,duration:300},{id:"minecraft:jump_boost",amplifier:0,duration:300}]},lore=[{"color":"#5C1C12","italic":false,"text":"Crisp Cola, water mixed with sugar and dye."}],custom_name={"italic":false,"text":"Cola"},custom_data={custdrink:1b,gainw:1b}] 1

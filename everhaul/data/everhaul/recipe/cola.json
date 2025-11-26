@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:sugar",
+    "minecraft:brown_dye",
+    "minecraft:water_bucket",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:water",
+        "custom_color": 6036498,
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 0,
+            "duration": 300
+          },
+          {
+            "id": "minecraft:jump_boost",
+            "amplifier": 0,
+            "duration": 300
+          }
+        ]
+      },
+      "minecraft:item_name": "Cola",
+      "minecraft:lore": [
+        {
+          "text": "Crisp Cola, water mixed with sugar and dye.",
+          "color": "#5C1C12",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_name": {
+        "text": "Cola",
+        "italic": false
+      },
+      "minecraft:custom_data": {
+        "custdrink": 1
+      }
+    }
+  }
+}

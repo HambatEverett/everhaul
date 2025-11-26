@@ -1,0 +1,46 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "equipment",
+  "ingredients": [
+    ["minecraft:wheat"],
+    ["minecraft:glowstone_dust"],
+    ["minecraft:glass_bottle"]
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 11091975,
+        "custom_effects": [
+          {
+            "id": "minecraft:strength",
+            "amplifier": 1,
+            "duration": 1800
+          },
+          {
+            "id": "minecraft:slowness",
+            "amplifier": 0,
+            "duration": 1200
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Whiskey",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "A bold bottle of Whiskey.",
+          "color": "#A94007",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1,
+        "alcohol": 1
+      }
+    },
+    "count": 1
+  }
+}

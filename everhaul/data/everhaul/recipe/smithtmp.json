@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": ["gng", "ldl", "glg"],
+  "key": {
+    "n": "minecraft:netherite_ingot",
+    "g": "minecraft:gilded_blackstone",
+    "d": "minecraft:diamond",
+    "l": "minecraft:netherrack"
+  },
+  "result": {
+    "id": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

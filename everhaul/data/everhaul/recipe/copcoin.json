@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "minecraft:copper_nugget",
+  "result": {
+    "id": "minecraft:echo_shard",
+    "components": {
+      "minecraft:item_model": "everhaul:copcoin",
+      "minecraft:item_name": "Copper Coin",
+      "minecraft:rarity": "common"
+    }
+  }
+}

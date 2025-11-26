@@ -1,0 +1,52 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:milk_bucket",
+    "minecraft:cocoa_beans",
+    "minecraft:cocoa_beans",
+    "minecraft:glass_bottle",
+    "minecraft:cocoa_beans"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 2496774,
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 1,
+            "duration": 1600
+          },
+          {
+            "id": "minecraft:haste",
+            "amplifier": 1,
+            "duration": 1500
+          },
+          {
+            "id": "minecraft:weakness",
+            "amplifier": 1,
+            "duration": 2400
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Black Coffee",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "Strong Black Coffee, made from only the finest of coffee beans.",
+          "color": "#6c4913",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1
+      }
+    },
+    "count": 1
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "ingredient": "minecraft:leaf_litter",
+  "result": {
+    "id": "minecraft:sugar",
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:speed",
+                "amplifier": 1,
+                "duration": 1000
+              },
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 3,
+                "duration": 1000
+              },
+              {
+                "id": "minecraft:resistance",
+                "amplifier": 0,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:haste",
+                "amplifier": 0,
+                "duration": 600
+              },
+              {
+                "id": "minecraft:weakness",
+                "amplifier": 10,
+                "duration": 1000
+              },
+              {
+                "id": "minecraft:instant_damage",
+                "amplifier": 1,
+                "duration": 1
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:item_name": "Cocaine",
+      "minecraft:lore": [
+        {
+          "text": "Fresh cocaine, consume via nose",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "drugs": 1,
+        "overdose": 1
+      }
+    }
+  }
+}
