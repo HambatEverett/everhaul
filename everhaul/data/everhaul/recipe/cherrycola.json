@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:sugar",
+    "minecraft:brown_dye",
+    "minecraft:sweet_berries",
+    "minecraft:water_bucket",
+    "minecraft:glass_bottle"
+  ],
+  "result": {
+    "id": "minecraft:potion",
+    "components": {
+      "minecraft:potion_contents": {
+        "potion": "minecraft:thick",
+        "custom_color": 8005158,
+        "custom_effects": [
+          {
+            "id": "minecraft:speed",
+            "amplifier": 0,
+            "duration": 400
+          },
+          {
+            "id": "minecraft:jump_boost",
+            "amplifier": 0,
+            "duration": 400
+          },
+          {
+            "id": "minecraft:saturation",
+            "amplifier": 1,
+            "duration": 100
+          }
+        ]
+      },
+      "minecraft:custom_name": {
+        "text": "Cherry Cola",
+        "italic": false
+      },
+      "minecraft:lore": [
+        {
+          "text": "A sweet fruity twist on classic Cola.",
+          "color": "#7A2626",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "custdrink": 1
+      }
+    }
+  }
+}
