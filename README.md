@@ -14,3 +14,5 @@ There isnt much after that.</br>
 But currently, i am working on the next chapter of this datapack.
 
 The **Fattening Foods** update will add more depth to the weight system, things like caffeine have actual effects on you, and well obviously im adding food.
+
+made with love <3
