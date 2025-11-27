@@ -34,11 +34,6 @@
                 "id": "minecraft:weakness",
                 "amplifier": 10,
                 "duration": 1000
-              },
-              {
-                "id": "minecraft:instant_damage",
-                "amplifier": 1,
-                "duration": 1
               }
             ]
           }
