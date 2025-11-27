@@ -1,4 +1,4 @@
-execute as @a[scores={overdose=11..}] as @a[scores={overdose=11..}] run function everhaul:overdose/stage1
+execute as @a if score @s overdose >= @s weight run function everhaul:overdose/stage1
 scoreboard players remove @a[scores={od_timer=88..}] od_timer 1
 scoreboard players remove @a[scores={bl_timer=1..}] bl_timer 1
 execute as @a[scores={od_timer=500}] run function everhaul:overdose/stage2

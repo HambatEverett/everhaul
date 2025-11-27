@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "everhaul:root",
+  "parent": "minecraft:adventure/play_jukebox_in_meadows",
   "criteria": {
     "drink_drink": {
       "trigger": "minecraft:using_item",

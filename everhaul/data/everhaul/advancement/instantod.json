@@ -1,32 +1,36 @@
 {
   "display": {
     "icon": {
-      "id": "minecraft:potion"
+      "id": "minecraft:paper",
+      "components": {
+        "minecraft:item_model": "none"
+      }
     },
-    "title": "alcd",
-    "description": "alcohol detect",
+    "title": "dd",
+    "description": "drug detection",
+    "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": true
   },
   "parent": "minecraft:adventure/play_jukebox_in_meadows",
   "criteria": {
-    "drink": {
+    "drugs2": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {
           "components": {
             "minecraft:custom_data": {
-              "custdrink": 1,
-              "alcohol": 1
+              "drugs": 1,
+              "instantod": 1
             }
           }
         }
       }
     }
   },
-  "requirements": [["drink"]],
+  "requirements": [["drugs2"]],
   "rewards": {
-    "function": "everhaul:detections/drink"
+    "function": "everhaul:detections/instantod"
   }
 }

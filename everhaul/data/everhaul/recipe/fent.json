@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": ["minecraft:glowstone_dust", "minecraft:nether_wart"],
+  "result": {
+    "id": "minecraft:sugar",
+    "components": {
+      "minecraft:consumable": {
+        "on_consume_effects": [
+          {
+            "type": "minecraft:apply_effects",
+            "effects": [
+              {
+                "id": "minecraft:nausea",
+                "amplifier": 5,
+                "duration": 12000
+              },
+              {
+                "id": "minecraft:weakness",
+                "amplifier": 7,
+                "duration": 12000
+              },
+              {
+                "id": "minecraft:slowness",
+                "amplifier": 0,
+                "duration": 12000
+              }
+            ]
+          }
+        ]
+      },
+      "minecraft:item_name": "Fentanyl",
+      "minecraft:lore": [
+        {
+          "text": "A powdery substance.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "minecraft:custom_data": {
+        "drugs": 1,
+        "instantod": 1
+      }
+    },
+    "count": 2
+  }
+}
